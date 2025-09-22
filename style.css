@@ -135,3 +135,81 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+/* ========== Responsive design ========== */
+
+/* Tablette */
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr; /* 2 colonnes au lieu de 3 */
+    gap: 1.5rem;
+  }
+
+  .card {
+    padding: 1.2rem;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr; /* 1 colonne */
+  }
+
+  .card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  section {
+    padding: 1.5rem 1rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+}
+
+/* Navigation responsive */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* permet de passer à la ligne si besoin */
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  nav a {
+    font-size: 1.1rem;
+    padding: 0.4rem;
+  }
+}
+

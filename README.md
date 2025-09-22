@@ -12,7 +12,7 @@ Ce site présente mes projets réalisés en **HTML, CSS et JavaScript**, ainsi q
 
 ## 🚀 Démo en ligne
 
-👉 [Voir le portfolio](https://ton-pseudo.github.io/portfolio/)  
+👉 [Voir le portfolio](https://jeremy-bell-27.github.io/Portfolio/)  
 
 ## 🛠️ Technologies utilisées
 
@@ -24,4 +24,5 @@ Ce site présente mes projets réalisés en **HTML, CSS et JavaScript**, ainsi q
 
 - 🦖 **Dinoworld** : Site immersif et pédagogique sur les dinosaures  
 - ✨ **Sagesse du jour** : Générateur de citations avec images et transitions animées  
+
 - 💼 **Portfolio personnel** : Le site actuel  
